@@ -24,7 +24,9 @@ struct ContentView: View {
             
             Spacer()
             
-            ButtonView(title: "Save", color: .red, action: timer.startTimer)
+            ButtonView(title: timer.buttonTitle, color: .red) {
+                timer.startTimer()
+            }
             
             Spacer()
             

@@ -15,7 +15,10 @@ struct LoginView: View {
     var body: some View {
         
         VStack {
-            
+            UserNameTF(
+                name: $userManager.user.name,
+                nameIsValid: userManager.nameIsValid
+            )
             
             Button(action: registerUser) {
                 HStack {
