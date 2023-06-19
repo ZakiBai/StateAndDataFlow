@@ -23,7 +23,7 @@ struct ContentView: View {
             
             Spacer()
             
-            ButtonView(timer: timer)
+            
             
             Spacer()
         }
