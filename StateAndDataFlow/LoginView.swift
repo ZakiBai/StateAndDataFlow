@@ -17,7 +17,7 @@ struct LoginView: View {
             TextField("Type your name", text: $name)
                 .multilineTextAlignment(.center)
             
-            Button(action: {}) {
+            Button(action: login) {
                 HStack {
                     Image(systemName: "checkmark.circle")
                     Text("OK")
