@@ -11,6 +11,7 @@
 		35B63ACB2A402FEF00689748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63ACA2A402FEF00689748 /* ContentView.swift */; };
 		35B63ACD2A402FF100689748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B63ACC2A402FF100689748 /* Assets.xcassets */; };
 		35B63AD02A402FF100689748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B63ACF2A402FF100689748 /* Preview Assets.xcassets */; };
+		35B63AD72A40379900689748 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AD62A40379900689748 /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		35B63ACA2A402FEF00689748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35B63ACC2A402FF100689748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B63ACF2A402FF100689748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35B63AD62A40379900689748 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				35B63AC82A402FEF00689748 /* StateAndDataFlowApp.swift */,
+				35B63AD62A40379900689748 /* TimeCounter.swift */,
 				35B63ACA2A402FEF00689748 /* ContentView.swift */,
 				35B63ACC2A402FF100689748 /* Assets.xcassets */,
 				35B63ACE2A402FF100689748 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B63AD72A40379900689748 /* TimeCounter.swift in Sources */,
 				35B63ACB2A402FEF00689748 /* ContentView.swift in Sources */,
 				35B63AC92A402FEF00689748 /* StateAndDataFlowApp.swift in Sources */,
 			);
