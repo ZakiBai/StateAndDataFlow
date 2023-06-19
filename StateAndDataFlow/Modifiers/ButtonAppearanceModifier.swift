@@ -18,15 +18,14 @@ struct ButtonAppearanceModifier: ViewModifier {
                 RoundedRectangle(cornerRadius: 20)
                     .stroke(Color.black, lineWidth: 4)
             )
-        
-        
     }
 }
 
 extension View {
     func buttonAppearance(_ color: Color) -> some View {
         ModifiedContent(
-        content: self, modifier: ButtonAppearanceModifier(color: color)
+        content: self,
+        modifier: ButtonAppearanceModifier(color: color)
         )
     }
  }

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ButtonView: View {
+    
     let title: String
     let color: Color
     let action: () -> Void
@@ -15,10 +16,11 @@ struct ButtonView: View {
     var body: some View {
         Button(action: action) {
             Text(title)
-                .foregroundColor(color)
+                .foregroundColor(.white)
                 .fontWeight(.bold)
                 .font(.title)
         }
+        .buttonAppearance(color)
     }
 }
 

@@ -67,8 +67,8 @@
 		35B63AC72A402FEF00689748 /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
-				35B63AEF2A406B1600689748 /* Modifiers */,
 				35B63AC82A402FEF00689748 /* StateAndDataFlowApp.swift */,
+				35B63AEF2A406B1600689748 /* Modifiers */,
 				35B63AE22A4064CB00689748 /* Models */,
 				35B63AE32A4064F100689748 /* Views */,
 				35B63AE42A40658100689748 /* Services */,
