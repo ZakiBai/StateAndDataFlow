@@ -14,6 +14,7 @@
 		35B63AD72A40379900689748 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AD62A40379900689748 /* TimeCounter.swift */; };
 		35B63AD92A403E2700689748 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AD82A403E2700689748 /* LoginView.swift */; };
 		35B63ADB2A4040B600689748 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63ADA2A4040B600689748 /* UserSettings.swift */; };
+		35B63ADF2A40419300689748 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63ADE2A40419300689748 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		35B63AD62A40379900689748 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		35B63AD82A403E2700689748 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		35B63ADA2A4040B600689748 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		35B63ADE2A40419300689748 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		35B63AC72A402FEF00689748 /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
+				35B63ADE2A40419300689748 /* RootView.swift */,
 				35B63ADA2A4040B600689748 /* UserSettings.swift */,
 				35B63AC82A402FEF00689748 /* StateAndDataFlowApp.swift */,
 				35B63AD82A403E2700689748 /* LoginView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				35B63AD72A40379900689748 /* TimeCounter.swift in Sources */,
 				35B63ACB2A402FEF00689748 /* ContentView.swift in Sources */,
+				35B63ADF2A40419300689748 /* RootView.swift in Sources */,
 				35B63AD92A403E2700689748 /* LoginView.swift in Sources */,
 				35B63ADB2A4040B600689748 /* UserSettings.swift in Sources */,
 				35B63AC92A402FEF00689748 /* StateAndDataFlowApp.swift in Sources */,
