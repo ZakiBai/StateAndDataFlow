@@ -15,6 +15,7 @@
 		35B63AD92A403E2700689748 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AD82A403E2700689748 /* LoginView.swift */; };
 		35B63ADF2A40419300689748 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63ADE2A40419300689748 /* RootView.swift */; };
 		35B63AE12A4064A500689748 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AE02A4064A500689748 /* User.swift */; };
+		35B63AE62A40660800689748 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B63AE52A40660800689748 /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		35B63AD82A403E2700689748 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		35B63ADE2A40419300689748 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		35B63AE02A4064A500689748 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		35B63AE52A40660800689748 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,10 @@
 		35B63AC72A402FEF00689748 /* StateAndDataFlow */ = {
 			isa = PBXGroup;
 			children = (
-				35B63AE22A4064CB00689748 /* Models */,
-				35B63ADE2A40419300689748 /* RootView.swift */,
 				35B63AC82A402FEF00689748 /* StateAndDataFlowApp.swift */,
-				35B63AD82A403E2700689748 /* LoginView.swift */,
-				35B63AD62A40379900689748 /* TimeCounter.swift */,
-				35B63ACA2A402FEF00689748 /* ContentView.swift */,
+				35B63AE22A4064CB00689748 /* Models */,
+				35B63AE32A4064F100689748 /* Views */,
+				35B63AE42A40658100689748 /* Services */,
 				35B63ACC2A402FF100689748 /* Assets.xcassets */,
 				35B63ACE2A402FF100689748 /* Preview Content */,
 			);
@@ -85,6 +85,25 @@
 				35B63AE02A4064A500689748 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		35B63AE32A4064F100689748 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35B63AD82A403E2700689748 /* LoginView.swift */,
+				35B63ADE2A40419300689748 /* RootView.swift */,
+				35B63ACA2A402FEF00689748 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		35B63AE42A40658100689748 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				35B63AD62A40379900689748 /* TimeCounter.swift */,
+				35B63AE52A40660800689748 /* UserManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,7 @@
 			files = (
 				35B63AD72A40379900689748 /* TimeCounter.swift in Sources */,
 				35B63ACB2A402FEF00689748 /* ContentView.swift in Sources */,
+				35B63AE62A40660800689748 /* UserManager.swift in Sources */,
 				35B63ADF2A40419300689748 /* RootView.swift in Sources */,
 				35B63AD92A403E2700689748 /* LoginView.swift in Sources */,
 				35B63AC92A402FEF00689748 /* StateAndDataFlowApp.swift in Sources */,
